@@ -1,0 +1,162 @@
+
+.kui
+{
+    margin: 20px 0 !important;
+    width: 100% !important;
+    clear: both;
+}
+
+.kui h1,
+.kui h2,
+.kui h3,
+.kui h4,
+.kui h5,
+.kui h6
+{
+    clear: both;
+    float: left;
+}
+
+.kui h1
+{
+    font-size: 150%;
+}
+
+.kui h2
+{
+    font-size: 125%;
+}
+
+.kui .note
+{
+    clear: both;
+    color: #72777c;
+    float: left;
+    margin: 0 0 10px 0;
+    padding: 0;
+}
+
+.kui .option-header
+{
+    border-bottom: 1px solid #dddddd;
+    font-size: 115%;
+    font-weight: 700;
+    line-height: 150%;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+}
+
+.kui .option-message
+{
+    font-style: italic;
+    color: #72777c;
+}
+
+.kui .option-container
+{
+    margin-bottom: 10px;
+    clear: both;
+    float: left;
+    width: 100%;
+}
+
+.kui .option-label
+{
+    width: 100%;
+    clear: both;
+    float: left;
+}
+
+.kui .option-label span
+{
+    float: left;
+    line-height: 20px;
+}
+
+.kui .option-label .option-hint
+{
+    float: right;
+    font-size: 18px;
+    line-height: 1.2;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.kui .option-input
+{
+    margin-top: 5px;
+    width: 100%;
+    clear: both;
+    float: left;
+}
+
+.kui .option-input input[type='text'],
+.kui .option-input input[type='password'],
+.kui .option-input input[type='number'],
+.kui .option-input select,
+.kui .option-input textarea
+{
+	width: 100%;
+	height: 32px;
+}
+
+.kui .option-input textarea
+{
+	height: 100px;
+}
+
+.kui .multicheck
+{
+    border: 1px solid #eee;
+    border-radius: 3px;
+    box-sizing: border-box;
+    display: block;
+    height: 100px;
+    overflow-y: scroll;
+    padding: 10px;
+    width: 100%;
+}
+
+.kui .multicheck label
+{
+    display: block;
+    font-weight: normal;
+    line-height: 135%;
+}
+
+.kui .upload-file span
+{
+	color: #82878c;
+	line-height: 26px;
+	margin-right: 5px;
+}
+
+.kui .uploaded-image
+{
+	border: 1px solid #cccccc;
+	border-radius: 3px;
+	height: 26px;
+	width: auto;
+}
+
+.kui .radio-option
+{
+    margin-right: 5px;
+}
+
+.kui ul.categorychecklist
+{
+    padding: 5px;
+    margin: 0;
+    background: #ffffff;
+    height: 68px;
+    width: 25em;
+    border: 1px solid #dddddd;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.07) inset;
+}
+
+.kui .footnote
+{
+    font-style: italic;
+    clear: both;
+}

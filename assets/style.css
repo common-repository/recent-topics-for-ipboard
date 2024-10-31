@@ -1,0 +1,354 @@
+
+.ipbrecent
+{
+	clear: both;
+}
+
+.ipbrecent *
+{
+    box-sizing: border-box;
+    outline: none;
+}
+
+.ipbrecent a
+{
+    text-decoration: none;
+    border: 0;
+    color: #3c6994 !important;
+}
+
+.ipbrecent a:hover
+{
+    color: #ad1457 !important;
+    opacity: 1;
+}
+
+.ipbrecent .list-above
+{
+	text-align: left;
+	font-weight: normal;
+}
+
+.ipbrecent .list-title
+{
+    transition: all 0.3s linear 0s;
+    margin: 0;
+    background: #304d66 none repeat scroll 0 0;
+    border-radius: 2px 2px 0 0;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 400;
+    padding: 11px 15px;
+    line-height: 18px;
+}
+
+.ipbrecent a.list-toggle
+{
+    font-size: 18px;
+    color: #ffffff !important;
+    height: 20px;
+    opacity: 0.2;
+    transition: all 0.3s linear 0s;
+    width: 20px;
+    float: right;
+    cursor: pointer;
+}
+
+.ipbrecent a.list-toggle:hover
+{
+    color: #ad1457 !important;
+    opacity: 1;
+}
+
+.ipbrecent a.list-toggle i
+{
+	font-size: 18px;
+}
+
+.ipbrecent .list-items
+{
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    line-height: 18px;    
+}
+
+.ipbrecent .list-item
+{
+	list-style-type: none;
+	margin: 0 !important;
+	padding: 10px !important;
+}
+
+.ipbrecent .list-item:nth-child(2n)
+{
+	background: #f9f9f9;
+}
+
+.ipbrecent .list-item h4
+{
+	display: inline;
+    hyphens: auto;
+    word-wrap: break-word;
+    font-weight: 400;
+    margin: 0 0 5px;
+	padding: 0;    
+}
+
+.ipbrecent .item-meta
+{
+	display: block;
+    color: #9c9c9c;
+    font-size: 13px;
+}
+
+.ipbrecent .item-meta *
+{
+    font-size: 13px;
+}
+
+.ipbrecent .item-meta a
+{
+	color: #9c9c9c !important;
+}
+
+.ipbrecent .item-meta a:hover
+{
+	color: #ad1457 !important;
+}
+
+.ipbrecent .item-avatar
+{
+    background: #ffffff;
+    border-radius: 150px;
+    display: inline-block;
+    line-height: 1px;
+    margin: 2px;
+    position: relative;
+    vertical-align: middle;
+    display: block;
+    float: left;
+}
+    
+.ipbrecent .item-avatar,
+.ipbrecent .item-avatar img
+{
+	border: 0;
+    border-radius: 17px;
+    height: 34px;
+    width: 34px;
+}
+
+.ipbrecent .item-profile
+{
+	display: table-cell;
+	vertical-align: middle;
+	padding-left: 10px;
+}
+
+.ipbrecent .item-post
+{
+    background: #ffffff none repeat scroll 0 0;
+    border: 1px solid #eeeeee;
+    border-radius: 5px;
+    line-height: inherit;
+    margin-top: 10px;
+    opacity: 0.8;
+    padding: 10px;
+}
+
+.ipbrecent .item-post a
+{
+	display: inline-block;
+    border: 1px solid;
+    border-radius: 2px;
+    font-weight: bold;
+    line-height: 100%;
+    opacity: 0.6;
+    padding: 0 2px 2px 2px;
+    margin-left: 5px;
+}
+
+.ipbrecent .item-post a:hover
+{
+	opacity: 1.0;
+}
+
+.ipbrecent .list-below
+{
+	text-align: left;
+	font-weight: normal;
+}
+
+.ipbrecent .copyright
+{
+    float: right;
+    margin-top: 10px;
+}
+
+.ipbrecent .copyright,
+.ipbrecent .copyright a
+{
+	font-size: 10px;
+}
+
+/* Standard */
+  
+.ipbrecent.standard .item-avatar,
+.ipbrecent.standard .item-avatar img
+{
+    border-radius: 25px;
+    height: 50px;
+    width: 50px;
+}
+
+.ipbrecent.standard .item-meta
+{
+	margin-top: 5px;
+}
+
+.ipbrecent.standard .item-meta .item-author,
+.ipbrecent.standard .item-meta .item-author a
+{
+	color: #525252 !important;
+}
+
+.ipbrecent.standard .item-meta .item-author a:hover
+{
+	color: #ad1457 !important;
+}
+
+/* Native */
+
+.ipbrecent.native .list-item div
+{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.ipbrecent.native .list-item div.item-star
+{
+    vertical-align: top;
+    opacity: 0.6;
+    color: #dbdbdb;
+}
+
+.ipbrecent.native .item-topic
+{
+    padding: 0 10px 0 10px;
+    width: 100%;
+}
+
+.ipbrecent.native .item-stats
+{
+    min-width: 150px;
+    text-align: right;
+    width: 15%;
+}
+
+.ipbrecent.native .item-stats span
+{
+	display: block;
+	color: #525252;
+	font-size: 13px;
+}
+
+.ipbrecent.native .item-stats span.item-views
+{
+	color: #9c9c9c;
+}
+
+.ipbrecent.native .item-meta
+{
+    margin: 0;
+    max-width: 24%;
+    min-width: 270px;
+    padding: 0;
+    width: 24%;
+}
+
+.ipbrecent.native .item-meta span
+{
+	display: block;
+}
+
+.ipbrecent.native .item-meta span.item-author a
+{
+	color: #525252 !important;
+}
+
+.ipbrecent.native .item-meta span.item-author a:hover
+{
+	color: #ad1457 !important;
+}
+
+.ipbrecent.native .item-avatar
+{
+    margin: 0 10px;    
+}
+
+.ipbrecent.native .item-topic .item-meta span
+{
+	display: inline-block;
+}
+
+.ipbrecent.native .item-tags
+{
+    margin-left: 10px;
+}
+
+.ipbrecent.native .item-tags span a
+{
+    background: #676767;
+    border-radius: 0 2px 2px 0;
+    color: #ffffff !important;
+    display: inline-block;
+    font-size: 10px;
+    height: 16px;
+    letter-spacing: 0;
+    line-height: 14px;
+    margin: -3px 3px 0 8px;
+    padding: 0 7px;
+    position: relative;
+    vertical-align: middle;
+}
+
+.ipbrecent.native .item-tags span a::before
+{
+    border-color: transparent #676767 transparent transparent;
+    right: 100%;
+    border-style: solid;
+    border-width: 8px;
+    content: "";
+    display: block;
+    height: 0;
+    position: absolute;
+    top: 0;
+    width: 0;
+}
+
+.ipbrecent.native .item-tags span a::after
+{
+    left: -3px;
+    background: #ffffff;
+    border-radius: 4px;
+    content: "";
+    display: block;
+    height: 4px;
+    position: absolute;
+    top: 6px;
+    width: 4px;
+}
+
+.ipbrecent.native .item-tags span a:hover
+{
+    background: #707070;
+}
+
+/* Compact */
+
+.ipbrecent.compact .item-meta
+{
+	font-style: italic;
+}

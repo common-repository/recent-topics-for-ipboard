@@ -1,0 +1,149 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: IP.Board Recent Topics\n"
+"POT-Creation-Date: 2016-06-11 01:33+0300\n"
+"PO-Revision-Date: 2016-06-22 09:51+0300\n"
+"Last-Translator: The Krotek <support@thekrotek.com>\n"
+"Language-Team: The Krotek <support@thekrotek.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.8\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: en_US\n"
+
+msgid "heading"
+msgstr "IP.Board Recent Topics"
+
+msgid "shortcode_header"
+msgstr "Shortcode number"
+
+msgid "title_title"
+msgstr "Title"
+
+msgid "title_hint"
+msgstr "Widget title"
+
+msgid "mode_title"
+msgstr "Mode"
+
+msgid "mode_hint"
+msgstr "Use this widget instance as shortcode only, widget only or both."
+
+msgid "mode_widget"
+msgstr "Widget"
+
+msgid "mode_shortcode"
+msgstr "Shortcode"
+
+msgid "mode_both"
+msgstr "Both"
+
+msgid "heading_database"
+msgstr "Database Settings"
+
+msgid "note_database"
+msgstr "Enter your IP.Board database parameters in fields below. You can find them in config_global.php file in your forum root folder."
+
+msgid "dbname_title"
+msgstr "Database name"
+
+msgid "dbname_hint"
+msgstr "Your IP.Board database name."
+
+msgid "dbhost_title"
+msgstr "Database host"
+
+msgid "dbhost_hint"
+msgstr "Your IP.Board database host ('localhost' in most cases)."
+
+msgid "dbusername_title"
+msgstr "Database username"
+
+msgid "dbusername_hint"
+msgstr "Your IP.Board database username."
+
+msgid "dbpassword_title"
+msgstr "Database password"
+
+msgid "dbpassword_hint"
+msgstr "Your IP.Board database password."
+
+msgid "dbprefix_title"
+msgstr "Database prefix"
+
+msgid "dbprefix_hint"
+msgstr "Your IP.Board database prefix."
+
+msgid "url_title"
+msgstr "Forum URL"
+
+msgid "url_hint"
+msgstr "Full URL to your forum (e.g: http://mysite.com/forum)."
+
+msgid "convert_title"
+msgstr "Force convert"
+
+msgid "convert_hint"
+msgstr "Force UTF-8 encoding convertion (might help in some cases)."
+
+msgid "toggle"
+msgstr "Toggle"
+
+msgid "topic_tooltip"
+msgstr "Read topic"
+
+msgid "post_tooltip"
+msgstr "Read last post"
+
+msgid "author"
+msgstr "Author"
+
+msgid "author_tooltip"
+msgstr "View profile"
+
+msgid "date"
+msgstr "Date"
+
+msgid "forum"
+msgstr "Forum"
+
+msgid "forum_tooltip"
+msgstr "Go to forum"
+
+msgid "tag_tooltip"
+msgstr "Find more topics with tag"
+
+msgid "replies"
+msgstr "replies"
+
+msgid "views"
+msgstr "views"
+
+msgid "message_save"
+msgstr "Save widget first!"
+
+msgid "error_id"
+msgstr "Widget ID number is not set."
+
+msgid "error_params"
+msgstr "Widget params not found."
+
+msgid "error_dbparams"
+msgstr "Some of the required database parameters are empty."
+
+msgid "error_database"
+msgstr "Can't connect to database. Check your settings."
+
+msgid "error_forums"
+msgstr "No forums found. Create some first."
+
+msgid "yes"
+msgstr "Yes"
+
+msgid "no"
+msgstr "No"
+
+msgid "footnote"
+msgstr "&copy; 2011-%s Powered by <a target='_blank' href='https://thekrotek.com' title='Discover the truth!'>The Krotek</a>."
